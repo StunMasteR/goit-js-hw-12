@@ -109,4 +109,4 @@ const OnLoadMoreBtnClick = async event => {
 };
 
 searchFormEl.addEventListener('submit', onSearchFormSubmit);
-loadmoreEl.addEventList
+loadmoreEl.addEventListener('click', OnLoadMoreBtnClick);
